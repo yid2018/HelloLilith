@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "TestAll">
+
+	<test name="order">
+		<classes>
+			<class name="com.yid.TestConfig" />
+			<class name="com.yid.TestOrder" />
+		</classes>	
+	</test>
+	
+	
+	<test name="database">
+		<classes>
+			<class name = "com.yid.TestConfig" />
+			<class name =  "com.yid.TestDatabase" />		
+		</classes>
+	
+	</test>
+	
+</suite>
